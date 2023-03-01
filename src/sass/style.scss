@@ -1,0 +1,35 @@
+@import 'base/variables';
+
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: MuseoModerno, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+//base
+@import './base/animations';
+
+//components
+@import './blocks/button';
+@import './blocks/title';
+@import './blocks/forms';
+@import './blocks/modal';
+@import './blocks/pageup';
+@import './blocks/header';
+@import './blocks/footer';
+
+//pages
+@import './blocks/promo';
+@import './blocks/adventages';
+@import './blocks/consulation';
+@import './blocks/carousel';
+@import './blocks/catalog';
+@import './blocks/feed';
+
